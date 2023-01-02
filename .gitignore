@@ -1,0 +1,6 @@
+
+*.jpg
+*.png
+*.zip
+.ipynb_checkpoints/floodnet-checkpoint.ipynb
+resnet101.pth
