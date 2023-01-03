@@ -4,3 +4,4 @@
 *.zip
 .ipynb_checkpoints/floodnet-checkpoint.ipynb
 resnet101.pth
+.ipynb_checkpoints/floodnetV2-checkpoint.ipynb
