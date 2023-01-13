@@ -18,14 +18,16 @@ The repository contains the following files/folders :
 To run the code, you need the trained model parameters to be downloaded here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing
 
 To run,
+```
 # create a local virtual environment in the venv folder
->>>> python -m venv venv
+python -m venv venv
 # increase the memory of CUDA by setting the parameter of the following environment variable (to be able to load the trained model)
-> set 'PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512'
+set 'PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512'
 # activate this environment
-> source venv/bin/activate
+source venv/bin/activate
 # run with 
-> jupyter notebook
+jupyter notebook
+```
 
 Further information : 
 
@@ -40,12 +42,14 @@ To run the code, you need all images. For this, download the folder data from ht
 You also need the parameters for the pre-trained Resnet model, found here : https://download.pytorch.org/models/resnet101-5d3b4d8f.pth. Then rename the file as resnet101.pth.
 
 To run,
+```
 # create a local virtual environment in the venv folder
->>>> python -m venv venv
+python -m venv venv
 # activate this environment
->>>> source venv/bin/activate
+source venv/bin/activate
 # run with 
->>>> jupyter notebook
+jupyter notebook
+```
 
 Further information : 
 
