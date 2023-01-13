@@ -6,18 +6,16 @@ The repository contains the following files/folders :
    - Evaluation.ipynb : predicts classes on the test dataset; the trained model is loaded
    - floodnet.ipynb : trains the model and get performances scores for training and validation datasets
    - FloodNet_split_train_valid_test.csv : contains the name of all images with their classification in train, validation or test set
-   - model_param.pth : contains all information about the trained model (this file is produced by floodnet.ipynb)
    - readme.md
-   - resnet101.pth : contains the weights of the Resnet model
 
 
 
 
 # Instructions to run Evaluation.ipynb
 
-To run the code, you need the trained model parameters to be downloaded here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing
+To run the code, you need the parameters of the trained model, to be downloaded here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing. The downloaded file is named 'model_param.pth', it was produced by 'floodnet.ipynb'.
 
-For the test images, either you download the folder 'data' from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing to have the 60 test images, either you use only a few of them, already given in the folder data from this repository. If you choose the first option, you need to set 'all_images' to True in the first code cell from Evaluation.ipynb. Otherwise, set it to False.
+For the test images, either you download the folder 'data' from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing to have the 60 test images (around 2GB), either you use only a few of them, already given in the folder 'data' from this repository. If you choose the first option, you need to set 'all_images' to 'True' in the first code cell of 'Evaluation.ipynb'. Otherwise, set it to 'False'. 
 
 To run,
 ```
