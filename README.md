@@ -17,6 +17,8 @@ The repository contains the following files/folders :
 
 To run the code, you need the trained model parameters to be downloaded here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing
 
+For the test images, either you download the folder data from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing to have the 60 test images, either you use only a few of them, already given in the folder data from this repository. For the first choice, you need to set 'all_images' to True in the first code cell from Evaluation.ipynb. Otherwise, set it to False.
+
 To run,
 ```
 # create a local virtual environment in the venv folder
