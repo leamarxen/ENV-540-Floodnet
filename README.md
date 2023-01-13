@@ -54,4 +54,4 @@ jupyter notebook
 Further information : 
 
    - This simulation should last around one hour and a half with 2 gpus and 64 GB RAM.
-   - In this run, to save computation time, the mean and standard deviation of the pixel values over all images are not recomputed (they were computed once and are now hardcoded since these information don't change over simulations). To compute them, set RECOMPUTE_MEAN_STD to True in the third code cell.
+   - In this run, to save computation time, the mean and standard deviation of the pixel values over all images are not recomputed (they were computed once and are now hardcoded since these information don't change over simulations). To compute them, set 'RECOMPUTE_MEAN_STD' to 'True' in the third code cell.
