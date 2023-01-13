@@ -17,7 +17,7 @@ The repository contains the following files/folders :
 
 To run the code, you need the trained model parameters to be downloaded here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing
 
-For the test images, either you download the folder data from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing to have the 60 test images, either you use only a few of them, already given in the folder data from this repository. If you choose the first option, you need to set 'all_images' to True in the first code cell from Evaluation.ipynb. Otherwise, set it to False.
+For the test images, either you download the folder 'data' from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing to have the 60 test images, either you use only a few of them, already given in the folder data from this repository. If you choose the first option, you need to set 'all_images' to True in the first code cell from Evaluation.ipynb. Otherwise, set it to False.
 
 To run,
 ```
@@ -40,8 +40,8 @@ Further information :
 
 # Instructions to run floodnet.ipynb
 
-To run the code, you need all images. For this, download the folder data from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing. Then, 
-You also need the parameters for the pre-trained Resnet model, found here : https://download.pytorch.org/models/resnet101-5d3b4d8f.pth. Then rename the file as resnet101.pth.
+To run the code, you need all images. For this, download the folder 'data' from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing. Then, 
+You also need the parameters for the pre-trained Resnet model, found here : https://download.pytorch.org/models/resnet101-5d3b4d8f.pth. Then rename the file as 'resnet101.pth'.
 
 To run,
 ```
