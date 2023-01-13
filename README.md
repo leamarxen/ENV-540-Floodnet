@@ -1,4 +1,4 @@
-######   Repository details   ######
+# Repository details
 
 The repository contains the following files/folders :
 
@@ -13,16 +13,16 @@ The repository contains the following files/folders :
 
 
 
-######   Instructions to run Evaluation.ipynb   ######
+# Instructions to run Evaluation.ipynb
 
 # create a local virtual environment in the venv folder
 >>>> python -m venv venv
 # increase the memory of CUDA by setting the parameter of the following environment variable (to be able to load the trained model)
->>>> set 'PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512'
+> set 'PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512'
 # activate this environment
->>>> source venv/bin/activate
+> source venv/bin/activate
 # run with 
->>>> jupyter notebook
+> jupyter notebook
 
 Further information : 
 
@@ -31,7 +31,7 @@ Further information :
 
 
 
-######   Instructions to run floodnet.ipynb   ######
+# Instructions to run floodnet.ipynb
 
 To run the code, you need all images, to be loaded from TO BE COMPLETED ??????????????????. Then, 
 
