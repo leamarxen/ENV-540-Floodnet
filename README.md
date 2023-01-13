@@ -35,7 +35,7 @@ Further information :
 
 # Instructions to run floodnet.ipynb
 
-To run the code, you need all images, to be loaded from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing. Then, 
+To run the code, you need all images. For this, download the folder data from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing. Then, 
 
 # create a local virtual environment in the venv folder
 >>>> python -m venv venv
