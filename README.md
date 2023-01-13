@@ -15,8 +15,9 @@ The repository contains the following files/folders :
 
 # Instructions to run Evaluation.ipynb
 
-## download the trained model parameters here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing
+To run the code, you need the trained model parameters to be downloaded here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing
 
+To run,
 # create a local virtual environment in the venv folder
 >>>> python -m venv venv
 # increase the memory of CUDA by setting the parameter of the following environment variable (to be able to load the trained model)
@@ -36,7 +37,9 @@ Further information :
 # Instructions to run floodnet.ipynb
 
 To run the code, you need all images. For this, download the folder data from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing. Then, 
+You also need the parameters for the pre-trained Resnet model, found here : https://download.pytorch.org/models/resnet101-5d3b4d8f.pth. Then rename the file as resnet101.pth.
 
+To run,
 # create a local virtual environment in the venv folder
 >>>> python -m venv venv
 # activate this environment
