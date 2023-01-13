@@ -15,6 +15,8 @@ The repository contains the following files/folders :
 
 # Instructions to run Evaluation.ipynb
 
+## download the trained model parameters here : https://drive.google.com/file/d/18zRjxfEl7Ipsswb4UnvnMeCPnAoeDoAI/view?usp=sharing
+
 # create a local virtual environment in the venv folder
 >>>> python -m venv venv
 # increase the memory of CUDA by setting the parameter of the following environment variable (to be able to load the trained model)
