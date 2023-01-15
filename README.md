@@ -2,7 +2,7 @@
 
 The repository contains the following files/folders :
 
-   - data : contains a few images from the test set (the ones used in the report)
+   - data : contains a few images from the test set (to run Evaluation.ipynb)
    - Evaluation.ipynb : predicts classes on the test dataset; the trained model is loaded
    - floodnet.ipynb : trains the model and gets performances scores for training and validation datasets
    - FloodNet_split_train_valid_test.csv : contains the name of all images with their classification in train, validation or test set
