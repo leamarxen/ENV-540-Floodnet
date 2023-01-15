@@ -59,6 +59,4 @@ Further information :
    
    
 # Authors
-Lea Marxen
-Nadège Sauvin
-Julie Weverbergh
+Lea Marxen, Nadège Sauvin and Julie Weverbergh
