@@ -28,7 +28,7 @@ source venv/bin/activate
 # run with 
 jupyter notebook
 ```
-The dependencies are installed within the jupyter notebook.
+The necessary dependencies are installed within the jupyter notebook.
 
 Further information : 
 
@@ -51,7 +51,7 @@ source venv/bin/activate
 # run with 
 jupyter notebook
 ```
-The dependencies are installed within the jupyter notebook.
+The necessary dependencies are installed within the jupyter notebook.
 
 Further information : 
 
