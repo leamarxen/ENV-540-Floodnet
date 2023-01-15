@@ -17,7 +17,7 @@ To run the code, you need the parameters of the trained model, to be downloaded 
 
 For the test images, either you download the folder 'data' from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing to have the 60 test images (around 2GB), either you use only a few of them, already given in the folder 'data' from this repository. If you choose the first option, you need to set 'all_images' to 'True' in the first code cell of 'Evaluation.ipynb'. Otherwise, set it to 'False'. 
 
-To run,
+To run:
 ```
 # create a local virtual environment in the venv folder
 python -m venv venv
@@ -28,6 +28,7 @@ source venv/bin/activate
 # run with 
 jupyter notebook
 ```
+The dependencies are installed within the jupyter notebook.
 
 Further information : 
 
@@ -50,9 +51,9 @@ source venv/bin/activate
 # run with 
 jupyter notebook
 ```
-The dependencies are installed within the jupyter notebooks (both floodnet.ipynb and Evaluation.ipynb).
+The dependencies are installed within the jupyter notebook.
 
 Further information : 
 
-   - The execution of floodnet.ipynb should last around one hour and a half with 2 gpus and 64 GB RAM.
+   - This simulation should last around one hour and a half with 2 gpus and 64 GB RAM.
    - In this run, to save computation time, the mean and standard deviation of the pixel values over all images are not recomputed (they were computed once and are now hardcoded since these information don't change over simulations). To compute them, set 'RECOMPUTE_MEAN_STD' to 'True' in the third code cell.
