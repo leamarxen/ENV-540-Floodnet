@@ -4,7 +4,7 @@ The repository contains the following files/folders :
 
    - data : contains a few images from the test set (the ones used in the report)
    - Evaluation.ipynb : predicts classes on the test dataset; the trained model is loaded
-   - floodnet.ipynb : trains the model and get performances scores for training and validation datasets
+   - floodnet.ipynb : trains the model and gets performances scores for training and validation datasets
    - FloodNet_split_train_valid_test.csv : contains the name of all images with their classification in train, validation or test set
    - readme.md
 
@@ -41,7 +41,7 @@ Further information :
 To run the code, you need all images. For this, download the folder 'data' from https://drive.google.com/drive/folders/1jOyH0aNXcN5F2uLGyGyAoWUbT8EWYZFd?usp=sharing. Then, 
 You also need the parameters for the pre-trained Resnet model, found here : https://download.pytorch.org/models/resnet101-5d3b4d8f.pth. Then rename the file as 'resnet101.pth'.
 
-To run,
+To run:
 ```
 # create a local virtual environment in the venv folder
 python -m venv venv
@@ -50,8 +50,9 @@ source venv/bin/activate
 # run with 
 jupyter notebook
 ```
+The dependencies are installed within the jupyter notebooks (both floodnet.ipynb and Evaluation.ipynb).
 
 Further information : 
 
-   - This simulation should last around one hour and a half with 2 gpus and 64 GB RAM.
+   - The execution of floodnet.ipynb should last around one hour and a half with 2 gpus and 64 GB RAM.
    - In this run, to save computation time, the mean and standard deviation of the pixel values over all images are not recomputed (they were computed once and are now hardcoded since these information don't change over simulations). To compute them, set 'RECOMPUTE_MEAN_STD' to 'True' in the third code cell.
