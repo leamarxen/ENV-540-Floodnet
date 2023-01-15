@@ -6,7 +6,7 @@ The repository contains the following files/folders :
    - Evaluation.ipynb : predicts classes on the test dataset; the trained model is loaded
    - floodnet.ipynb : trains the model and gets performances scores for training and validation datasets
    - FloodNet_split_train_valid_test.csv : contains the name of all images with their classification in train, validation or test set
-   - readme.md : This Readme
+   - README.md : This Readme
    - Report_Floodnet_project.pdf : report of the project; also contains sample images, predicted label maps and validation/test metrics
    
 
